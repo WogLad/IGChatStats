@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ChatStat - Chat Data Analyzer</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS -->
+    <title>Chat Data Analyzer</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1>Upload Your Chat Data</h1>
-    <input type="file" id="jsonFileInput" accept="application/json" />
+    <input type="file" id="jsonFileInput" accept="application" />
     
-    <script src="script.js"></script> <!-- Link to the external JS -->
+    <!-- New div that will be displayed after data verification -->
+    <div id="successMessage" class="success-message">
+        <!-- Success message will be added here dynamically -->
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
