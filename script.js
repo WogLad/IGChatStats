@@ -93,7 +93,7 @@ function showSuccessMessage(jsonData) {
   // Call the ChatGPT API to analyze the chat data and provide insights
   async function getChatGPTResponse(chatData) {
     const apiKey =
-      "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"; // Replace with your actual API key
+      "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"; // Replace with your actual API key
     const apiUrl = "https://api.openai.com/v1/engines/gpt-4.0-mini/completions";
 
     const response = await fetch(apiUrl, {
